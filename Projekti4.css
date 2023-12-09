@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Mulish:wght@200&family=Nunito:wght@200&family=Rubik:wght@300&family=Zen+Kurenaido&display=swap');
+
+html{
+    font-size:50%;
+    overflow-x:hidden ;
+    scroll-padding-top: 5.5rem;
+ }
+ 
+
+ body{
+   background-size: cover;
+   background-image: url(page1photo.avif);
+ }
+ 
+ .headeri{
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-between;
+    outline: none;
+
+}
+
+.headeri>ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    color: white;
+    
+}
+.header>ul>li{
+
+   color: wheat;
+
+}
+a{
+
+
+    color: wheat;
+}
+
+
+       .header a:hover{
+         background: var(--red);
+       }
+
+      
+
+       .header>ul:hover {
+    
+       }
+        header .icons i
+        header .icons a{
+        cursor: pointer;
+        margin-left: .5rem ;
+        height: 4.5rem ;
+        line-height: 4.5rem;
+        width: 4.5rem;
+        text-align: center;
+        font-size: 1.7rem;
+        color: white;
+        border-radius: 50%;
+        background: var(--red);
+        }
+
+       h1{
+          display: flex;
+        font-size: xx-large;
+        color: wheat;
+        justify-content: center;
+       }
+       .contactus{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        flex-wrap: wrap;
+        border: 5px solid red;
+        border-radius: 250px;
+       }
+       .group{
+      width: 500px;
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+    font-size: x-large;
+    color: wheat;
+    margin-inline:100px
+       }
+
+       label{
+        display: block;
+        font-weight: bold;
+        margin-bottom: 10px;
+
+    }
+
+    input[type="text"]{
+       width: 100%;
+       padding: 10px;
+       border: 5px solid red;
+       border-radius: 4px;
+      
+       
+    }
+
+    input[type="password"]{
+        width: 100%;
+       padding: 10px;
+       border: 5px solid red;
+       border-radius: 4px;
+      
+
+    }
+    textarea[id="message"]{
+
+       font-size: larger;
+        width: 100%;
+       padding: 10px;
+       border: 5px solid red;
+       border-radius: 4px;
+      
+    }
+
+       button{
+          color: wheat;
+          padding: 10px,20px;
+          border: 1px solid red;
+          border-radius: 4px;
+          cursor: pointer;
+       }
+       
+       button:hover{
+        background-color: gray;
+       }
+
+
+       footer .footeri{
+        color: wheat;
+        display: flex;
+        margin-top: 100px;
+        margin-left: 100px;
+        border: 5px solid;
+        font-size: larger;
+        margin-inline: 40%;
+     }
+
+
+
+
+       @media (max-width: 600px){
+
+        .contactus{
+            padding: 10px;
+        }
+       }
