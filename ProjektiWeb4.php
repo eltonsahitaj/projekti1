@@ -13,11 +13,14 @@
     <div class="headeri">
       <img src="logoo.png" alt="">
       <ul>
-        <li><a href="ProjektiWeb.html">Home</a></li>
-        <li><a href="ProjektiWeb3.html">About Us</a></li>
-        <li><a href="ProjektiWeb4.html">Contact us</a></li>
+      <li><a href="ProjektiWeb.php">Home</a></li>
+            <li><a href="ProjektiWeb3.php">About Us</a></li>
+            <li><a href="ProjektiWeb4.php">Contact us</a></li>
+            <li><a href="ProjektiWeb5.php">Features</a></li>
+            <li><a href="ProjektiWeb6.php">Movies</a></li>
+           
         <input type="search">
-        <i class='bx bx-search-alt-2'></i>
+        <i class='bx bx-search'></i>
       </ul>
     </div>
 </header>

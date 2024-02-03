@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Mulish:wght@200&family=Nunito:wght@200&family=Rubik:wght@300&family=Zen+Kurenaido&display=swap');
+
+html{
+    font-size:50%;
+    overflow-x:hidden ;
+    scroll-padding-top: 5.5rem;
+ }
+ 
+
+ body{
+   background-size: cover;
+   background-image: url(page1photo.avif);
+ }
+ 
+ .headeri{
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-between;
+    outline: none;
+
+}
+
+.headeri>ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    color: white;
+    
+}
+.header>ul>li{
+
+   color: wheat;
+
+}
+a{
+
+
+    color: wheat;
+}
+
+
+       .header a:hover{
+         background: var(--red);
+       }
+
+      
+
+       .header>ul:hover {
+    
+       }
+        header .icons i
+        header .icons a{
+        cursor: pointer;
+        margin-left: .5rem ;
+        height: 4.5rem ;
+        line-height: 4.5rem;
+        width: 4.5rem;
+        text-align: center;
+        font-size: 1.7rem;
+        color: white;
+        border-radius: 50%;
+        background: var(--red);
+       }

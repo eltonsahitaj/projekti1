@@ -8,16 +8,19 @@ html{
  }
  
 
- body{
-   background-size: cover;
-   background-image: url(page1photo.avif);
- }
+ 
  
  .headeri{
     display: flex;
     font-size: xx-large;
     justify-content: space-between;
     outline: none;
+
+}
+  
+.headeri img{
+    width: 100px;
+    height: 100px;
 
 }
 
@@ -66,6 +69,11 @@ a{
         background: var(--red);
         }
 
+        body{
+            background-size: cover;
+            background-image: url(bright-pop-landscape-design_23-2149213461.avif);
+          }
+
        h1{
           display: flex;
         font-size: xx-large;
@@ -77,7 +85,9 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 10px;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
         flex-wrap: wrap;
         border: 5px solid red;
         border-radius: 250px;

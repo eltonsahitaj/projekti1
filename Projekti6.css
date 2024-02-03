@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Mulish:wght@200&family=Nunito:wght@200&family=Rubik:wght@300&family=Zen+Kurenaido&display=swap');
+
+html{
+    font-size:50%;
+    overflow-x:hidden ;
+    scroll-padding-top: 5.5rem;
+ }
+ 
+
+ body{
+   background-size: cover;
+   background-image: url(page1photo.avif);
+ }
+ 
+ .headeri{
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-between;
+    outline: none;
+
+}
+
+.headeri>ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    color: white;
+    
+}
+.header>ul>li{
+
+   color: wheat;
+
+}
+a{
+
+
+    color: wheat;
+}
+
+
+       .header a:hover{
+         background: var(--red);
+       }
+
+       .text-container{
+    
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10%;
+        margin-inline: 39%;
+        font-size: larger;
+        border: 2px solid rgb(41,41, 41, 0.8);
+        border-radius: 8px;
+        box-shadow: 28px;
+       }
+      
+
+       .section{
+  
+        padding: 2%;
+       color: rgb(255, 255, 255);
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       margin: 10%;
+       font-size: larger;
+       border: solid red;
+       border-radius: 8px;
+       flex-wrap: wrap;
+       
+       
+
+       
+      }
+
+      .slider-container {
+       width: 100%;
+       overflow: hidden;
+     }
+ 
+     .slider {
+       display: flex;
+       transition: transform 0.5s ease-in-out;
+     }
+      
+     /* .anime{ 
+       display: flow;
+   font-size: larger;
+   padding: 0%;
+   margin: 0%; */
+       
+   .anime {
+       min-width: 100%;
+       box-sizing: border-box;
+       padding: 15px;
+       text-align: center;
+     }
+ 
+     img {
+       max-width: 100%;
+       height: auto;
+     }
+ 
+     h3, p {
+       margin: 10px 0;
+     }
+ 
+     .btn {
+       text-decoration: none;
+       color: #fff;
+       background-color: #007BFF;
+       padding: 10px 20px;
+       border-radius: 5px;
+       display: inline-block;
+     
+     }    
+
+      .anime:hover{
+          cursor: pointer;
+
+      }
+       
+      
+       .slide{
+
+           padding: 2%;
+           margin: auto;
+           color: skyblue;
+           display: inline-grid;
+           font-size: large;
+           justify-items: center;
+       
+       
+       }
+   img{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       flex-wrap: nowrap;
+
+
+   } 
+
+
+       
+       
+   footer .footeri{
+       color: wheat;
+       display: flex;
+       margin-top: 100px;
+       margin-left: 100px;
+       border: 5px solid;
+       font-size: larger;
+       margin-inline: 40%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   @media (max-width: 600px){
+
+       .section{
+           padding: 10px;
+       }
+      }
+          
+  

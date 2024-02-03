@@ -8,17 +8,24 @@
     <title>AniSite class.io</title>
   <link rel="stylesheet" href="Projekti.css">
 </head>
+
 <body> 
   <header>
     <div class="headeri">
       <img src="logoo.png" alt="">
       <ul>
-        <li><a href="ProjektiWeb.html">Home</a></li>
-        <li><a href="ProjektiWeb3.html">About Us</a></li>
-        <li><a href="ProjektiWeb4.html">Contact us</a></li>
-        <input type="search">
-        <i class='bx bx-search-alt-2'></i>
+      <li><a href="ProjektiWeb.php">Home</a></li>
+      <li><a href="ProjektiWeb3.php">About Us</a></li>
+      <li><a href="ProjektiWeb4.php">Contact us</a></li>
+      <li><a href="ProjektiWeb5.php">Features</a></li>
+      <li><a href="ProjektiWeb6.php">Movies</a></li>
+     
+       
       </ul>
+      <div class="Othersearch" style="margin: auto;">
+        <input type="search" name="search" id="Othersearch" placeholder="Search...">
+        <i class='bx bx-search'></i>
+    </div>
     </div>
 </header>
 
@@ -97,6 +104,8 @@
   </div>  
 </div>
    </div>
+   <script src="script2"></script>
+  
 
    <footer>
     <div class="footeri">
@@ -106,6 +115,7 @@
     </div>
     
    </footer>
+   
 
   </body>
   </html>

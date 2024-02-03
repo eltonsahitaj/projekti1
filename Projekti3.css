@@ -22,6 +22,12 @@ html{
 
 }
 
+.headeri img{
+    width: 100px;
+    height: 100px;
+
+}
+
 .headeri>ul{
     display: flex;
     align-items: center;
@@ -43,6 +49,12 @@ a{
     color: wheat;
     text-decoration: none;
 }
+
+body{
+    background-size: cover;
+    background-image: url(bright-pop-landscape-design_23-2149213461.avif);
+  }
+  
  h1{
     display: flex;
     color: wheat;

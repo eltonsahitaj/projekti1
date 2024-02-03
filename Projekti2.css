@@ -1,386 +1,60 @@
-
-/* 
-*{
-    padding: 0.5%;
-    margin: 0%;
-    box-sizing: border-box;
-    flex-direction: row;
-    font-family:"Poppins",sans-serif;
-}   */
-
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Ubuntu:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Mulish:wght@200&family=Nunito:wght@200&family=Rubik:wght@300&family=Zen+Kurenaido&display=swap');
-
 html{
-    font-size:50%;
-    overflow-x:hidden ;
-    scroll-padding-top: 5.5rem;
- }
- 
+  font-size:50%;
+  overflow-x:hidden ;
+  scroll-padding-top: 5.5rem;
+}
 
- body{
+body
+{
+   background: url(bright-pop-landscape-design_23-2149213461.avif)no-repeat;
    background-size: cover;
-   background-image: url(page1photo.avif);
- }
- 
- .headeri{
-    display: flex;
-    font-size: xx-large;
-    justify-content: space-between;
-    outline: none;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   right: 0%;
+   bottom: 0%;
+}
+
+.headeri{
+   display: flex;
+   font-size: xx-large;
+   justify-content: space-between;
+   outline: none;
+       
+}
+.headeri img{
+   width: 100px;
+   height: 100px;
 
 }
 
 .headeri>ul{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    width: 60%;
-    justify-content: space-evenly;
-    margin-right: 30px;
-    color: white;
-    
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   width: 60%;
+   justify-content: space-evenly;
+   margin-right: 30px;
+   color: white;
+   
 }
-.header>ul>li{
-
-   color: wheat;
+.headeri>ul>li{
+   width: 10%;
+  color: wheat;
 
 }
 a{
 
 
-    color: wheat;
+   color: wheat;
+
+
 }
 
 
-       .header a:hover{
-         background: var(--red);
-       }
 
-      
 
-       .header>ul:hover {
-    
-       }
-        header .icons i
-        header .icons a{
-        cursor: pointer;
-        margin-left: .5rem ;
-        height: 4.5rem ;
-        line-height: 4.5rem;
-        width: 4.5rem;
-        text-align: center;
-        font-size: 1.7rem;
-        color: white;
-        border-radius: 50%;
-        background: var(--red);
-       }
 
 
 
 
-
-
-
-
-       /* input[type=text], select {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-      }
-      
-      input[type=submit] {
-        width: 100%;
-        background-color: #4CAF50;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-      
-      input[type=submit]:hover {
-        background-color: #45a049;
-      } */
-
-      .login {
-        border: 2px solid wheat;
-        border-radius: 10px;
-        padding: 40px;
-        color: white;
-      }
-
-    .text2{
-        font-size: 20px;
-    }
-
-      .text1{
-        font-size: 40px;
-        text-align: center;
-      }
-
-
-      .forma_input1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-      }
-
-      input[type=text] {
-        width: 100%;
-        padding: 10px 18px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-      }
-      input[type=email] {
-        width: 100%;
-        padding: 10px 18px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-      }
-      input[type=password] {
-        width: 100%;
-        padding: 10px 18px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-      }
-
-    .form{
-    display: flex;
-    flex-direction:column;
-    }
-
-    .forgot{
-        text-align: center;
-        font-size: 15px;
-    }
-
-    .checkbox1{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .forgot1{
-        color: wheat;
-        margin-bottom: 10px;
-    }
-
-    .paragraph1 {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .register1 {
-        color: wheat;
-        margin-bottom: 20px;
-    }
-
-   .kycu{
-            background-color: white;
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-    }
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-      
- /* .forma_input{
-display: flex;
-justify-content: center;
-align-items: center;
-justify-content: space-evenly;
-}
-
- form{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    max-width: 300px;
- }
-
- .login_forma{
-margin-inline: 20%;
- }
-
- input[type=text]:focus, input[type=password]:focus , input[type=email]:focus{
-   margin-bottom: 1%;
-   border-radius: 3px;
-      background-color: red;
-      outline: none;
-      border: none;
-}
-
-.login_forma i.bx.bxs-user{
-    font-size: large;
-}
-
-.input_forma .login_forma{
-    background-color: darkgreen;
-  color: blue;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 83%;
-  opacity: 0.9;
-}
-
-.login_forma h2{
-    font-size: 36px;
-    text-align: center;
-}
-
-.login_forma input{
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border: 2px solid darkgreen;
-    border-radius: 20%;
-} */
-
-
-/*.register_forma{
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: darkgreen;
-color: red;
-padding: 16px 20px;
-margin: 8px 0;
-border: none;
-cursor: pointer;
-opacity: 0.9;
-  margin-inline:20%;
-}*/
-
-
-
-/*Register Forma*/
-
-
-
-.register_form {
-    border: 2px solid wheat;
-    border-radius: 10px;
-    padding: 50px;
-    color: white;
-  }
-
-  .name_register{
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .forma_input2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-
-  .kujtes{
-    display: flex;
-    flex-direction: column;
-    font-size: 15px;
-    color: whitesmoke;
-    text-align: center;
-}
-
-.login-link{
-    color: wheat
-}
-
-.login-link:hover{
-    background-color: gray;
-    background-size: cover;
-}
-.registerbutton1{
-    /* background-color: gray; */
-    border: none;
-    color: white;
-    padding: 13px 30px;
-    cursor: pointer;
-    text-align: center;
-  
-}
-
-/* .registerbutton1:hover{
-    background-color: black;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-footer .footeri{
-    color: wheat;
-    display: flex;
-    margin-top: 100px;
-    margin-left: 100px;
-    border: 5px solid;
-    font-size: larger;
-    margin-inline: 40%;
- }
-
-
-
-    html{
-       font-size: 55%;
-    }
-
-
-     header{
-
-       padding: 1rem , 2rem;
-     }
-  
-
-   @media(max-width 600px){
-
-     .form{
-
-        padding: 10px;
-     }
-
-
-   }
-       

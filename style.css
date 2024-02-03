@@ -1,0 +1,26 @@
+.container{
+ border: solid black;
+ border-radius: 50px;
+ font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-group{
+    margin-bottom:30px;
+    border-radius: solid 50px red;
+ font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+

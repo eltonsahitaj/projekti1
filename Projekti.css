@@ -16,7 +16,11 @@ html{
     outline: none;
         
 }
+.headeri img{
+    width: 100px;
+    height: 100px;
 
+}
 
 .headeri>ul{
     display: flex;
@@ -43,6 +47,11 @@ body
 {
     background: url(bright-pop-landscape-design_23-2149213461.avif)no-repeat;
     background-size: cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
 }
 
 /* .header{
@@ -168,14 +177,48 @@ body
 
         
        }
-        .anime{
+
+       .slider-container {
+        width: 100%;
+        overflow: hidden;
+      }
+  
+      .slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+      }
+       
+      /* .anime{ 
         display: flow;
     font-size: larger;
     padding: 0%;
-    margin: 0%;
+    margin: 0%; */
         
-       }
-       /*
+    .anime {
+        min-width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+        text-align: center;
+      }
+  
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      h3, p {
+        margin: 10px 0;
+      }
+  
+      .btn {
+        text-decoration: none;
+        color: #fff;
+        background-color: #007BFF;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: inline-block;
+      
+      }    
 
        .anime:hover{
            cursor: pointer;
@@ -202,7 +245,7 @@ body
         flex-wrap: nowrap;
 
 
-    } */
+    } 
 
 
         
